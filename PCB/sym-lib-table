@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name eMob)(type Legacy)(uri ${KIPRJMOD}/eMob.lib)(options "")(descr ""))
+)

@@ -1,0 +1,697 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 605070C8
+P 4550 1000
+AR Path="/60414BF3/605070C8" Ref="#PWR?"  Part="1" 
+AR Path="/605070C8" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/605070C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 850 50  0001 C CNN
+F 1 "+5V" H 4565 1173 50  0000 C CNN
+F 2 "" H 4550 1000 50  0001 C CNN
+F 3 "" H 4550 1000 50  0001 C CNN
+	1    4550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 605070CE
+P 4550 1600
+AR Path="/60414BF3/605070CE" Ref="R?"  Part="1" 
+AR Path="/605070CE" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/605070CE" Ref="R?"  Part="1" 
+F 0 "R?" H 4609 1646 50  0000 L CNN
+F 1 "???" H 4609 1555 50  0000 L CNN
+F 2 "" H 4550 1600 50  0001 C CNN
+F 3 "~" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 605070D4
+P 4450 1300
+AR Path="/60414BF3/605070D4" Ref="Q?"  Part="1" 
+AR Path="/605070D4" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/605070D4" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4300 1350 50  0000 L CNN
+F 1 "Q_PMOS" H 4200 1150 50  0000 L CNN
+F 2 "" H 4650 1400 50  0001 C CNN
+F 3 "~" H 4450 1300 50  0001 C CNN
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1100 4550 1000
+$Comp
+L power:+5V #PWR?
+U 1 1 605070DD
+P 5700 1000
+AR Path="/60414BF3/605070DD" Ref="#PWR?"  Part="1" 
+AR Path="/605070DD" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/605070DD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 850 50  0001 C CNN
+F 1 "+5V" H 5715 1173 50  0000 C CNN
+F 2 "" H 5700 1000 50  0001 C CNN
+F 3 "" H 5700 1000 50  0001 C CNN
+	1    5700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 605070E3
+P 5700 1600
+AR Path="/60414BF3/605070E3" Ref="R?"  Part="1" 
+AR Path="/605070E3" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/605070E3" Ref="R?"  Part="1" 
+F 0 "R?" H 5759 1646 50  0000 L CNN
+F 1 "???" H 5759 1555 50  0000 L CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "~" H 5700 1600 50  0001 C CNN
+	1    5700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 605070E9
+P 5600 1300
+AR Path="/60414BF3/605070E9" Ref="Q?"  Part="1" 
+AR Path="/605070E9" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/605070E9" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5450 1350 50  0000 L CNN
+F 1 "Q_PMOS" H 5350 1150 50  0000 L CNN
+F 2 "" H 5800 1400 50  0001 C CNN
+F 3 "~" H 5600 1300 50  0001 C CNN
+	1    5600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1100 5700 1000
+$Comp
+L power:+5V #PWR?
+U 1 1 605070F2
+P 6850 1000
+AR Path="/60414BF3/605070F2" Ref="#PWR?"  Part="1" 
+AR Path="/605070F2" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/605070F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 850 50  0001 C CNN
+F 1 "+5V" H 6865 1173 50  0000 C CNN
+F 2 "" H 6850 1000 50  0001 C CNN
+F 3 "" H 6850 1000 50  0001 C CNN
+	1    6850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 605070F8
+P 6850 1600
+AR Path="/60414BF3/605070F8" Ref="R?"  Part="1" 
+AR Path="/605070F8" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/605070F8" Ref="R?"  Part="1" 
+F 0 "R?" H 6909 1646 50  0000 L CNN
+F 1 "???" H 6909 1555 50  0000 L CNN
+F 2 "" H 6850 1600 50  0001 C CNN
+F 3 "~" H 6850 1600 50  0001 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 605070FE
+P 6750 1300
+AR Path="/60414BF3/605070FE" Ref="Q?"  Part="1" 
+AR Path="/605070FE" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/605070FE" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6600 1350 50  0000 L CNN
+F 1 "Q_PMOS" H 6500 1150 50  0000 L CNN
+F 2 "" H 6950 1400 50  0001 C CNN
+F 3 "~" H 6750 1300 50  0001 C CNN
+	1    6750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1100 6850 1000
+Wire Wire Line
+	6850 1700 6850 1800
+Wire Wire Line
+	6850 1800 7400 1800
+Text Label 7400 1800 2    39   ~ 0
+RGB_LEFT_BLUE
+Text Label 7400 1900 2    39   ~ 0
+RGB_LEFT_GREEN
+Text Label 7400 2000 2    39   ~ 0
+RGB_LEFT_RED
+Wire Wire Line
+	5700 1900 5700 1700
+Wire Wire Line
+	5700 1900 7400 1900
+Wire Wire Line
+	4550 2000 4550 1700
+Wire Wire Line
+	4550 2000 7400 2000
+$Comp
+L power:+5V #PWR?
+U 1 1 60507110
+P 4550 2400
+AR Path="/60414BF3/60507110" Ref="#PWR?"  Part="1" 
+AR Path="/60507110" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/60507110" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 2250 50  0001 C CNN
+F 1 "+5V" H 4565 2573 50  0000 C CNN
+F 2 "" H 4550 2400 50  0001 C CNN
+F 3 "" H 4550 2400 50  0001 C CNN
+	1    4550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60507116
+P 4550 3000
+AR Path="/60414BF3/60507116" Ref="R?"  Part="1" 
+AR Path="/60507116" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/60507116" Ref="R?"  Part="1" 
+F 0 "R?" H 4609 3046 50  0000 L CNN
+F 1 "???" H 4609 2955 50  0000 L CNN
+F 2 "" H 4550 3000 50  0001 C CNN
+F 3 "~" H 4550 3000 50  0001 C CNN
+	1    4550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 6050711C
+P 4450 2700
+AR Path="/60414BF3/6050711C" Ref="Q?"  Part="1" 
+AR Path="/6050711C" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/6050711C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4300 2750 50  0000 L CNN
+F 1 "Q_PMOS" H 4200 2550 50  0000 L CNN
+F 2 "" H 4650 2800 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2500 4550 2400
+$Comp
+L power:+5V #PWR?
+U 1 1 60507125
+P 5700 2400
+AR Path="/60414BF3/60507125" Ref="#PWR?"  Part="1" 
+AR Path="/60507125" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/60507125" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 2250 50  0001 C CNN
+F 1 "+5V" H 5715 2573 50  0000 C CNN
+F 2 "" H 5700 2400 50  0001 C CNN
+F 3 "" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6050712B
+P 5700 3000
+AR Path="/60414BF3/6050712B" Ref="R?"  Part="1" 
+AR Path="/6050712B" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/6050712B" Ref="R?"  Part="1" 
+F 0 "R?" H 5759 3046 50  0000 L CNN
+F 1 "???" H 5759 2955 50  0000 L CNN
+F 2 "" H 5700 3000 50  0001 C CNN
+F 3 "~" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60507131
+P 5600 2700
+AR Path="/60414BF3/60507131" Ref="Q?"  Part="1" 
+AR Path="/60507131" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/60507131" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5450 2750 50  0000 L CNN
+F 1 "Q_PMOS" H 5350 2550 50  0000 L CNN
+F 2 "" H 5800 2800 50  0001 C CNN
+F 3 "~" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2500 5700 2400
+$Comp
+L power:+5V #PWR?
+U 1 1 6050713A
+P 6850 2400
+AR Path="/60414BF3/6050713A" Ref="#PWR?"  Part="1" 
+AR Path="/6050713A" Ref="#PWR?"  Part="1" 
+AR Path="/604FCAFA/6050713A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 2250 50  0001 C CNN
+F 1 "+5V" H 6865 2573 50  0000 C CNN
+F 2 "" H 6850 2400 50  0001 C CNN
+F 3 "" H 6850 2400 50  0001 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60507140
+P 6850 3000
+AR Path="/60414BF3/60507140" Ref="R?"  Part="1" 
+AR Path="/60507140" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/60507140" Ref="R?"  Part="1" 
+F 0 "R?" H 6909 3046 50  0000 L CNN
+F 1 "???" H 6909 2955 50  0000 L CNN
+F 2 "" H 6850 3000 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60507146
+P 6750 2700
+AR Path="/60414BF3/60507146" Ref="Q?"  Part="1" 
+AR Path="/60507146" Ref="Q?"  Part="1" 
+AR Path="/604FCAFA/60507146" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6600 2750 50  0000 L CNN
+F 1 "Q_PMOS" H 6500 2550 50  0000 L CNN
+F 2 "" H 6950 2800 50  0001 C CNN
+F 3 "~" H 6750 2700 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2500 6850 2400
+Wire Wire Line
+	6850 3100 6850 3200
+Wire Wire Line
+	6850 3200 7400 3200
+Text Label 7400 3200 2    39   ~ 0
+RGB_RIGHT_BLUE
+Text Label 7400 3300 2    39   ~ 0
+RGB_RIGHT_GREEN
+Text Label 7400 3400 2    39   ~ 0
+RGB_RIGHT_RED
+Wire Wire Line
+	5700 3300 5700 3100
+Wire Wire Line
+	5700 3300 7400 3300
+Wire Wire Line
+	4550 3400 4550 3100
+Wire Wire Line
+	4550 3400 7400 3400
+Text HLabel 7400 1800 2    50   Input ~ 0
+RGB_LEFT_BLUE
+Text HLabel 7400 1900 2    50   Input ~ 0
+RGB_LEFT_GREEN
+Text HLabel 7400 2000 2    50   Input ~ 0
+RGB_LEFT_RED
+Text HLabel 7400 3200 2    50   Input ~ 0
+RGB_RIGHT_BLUE
+Text HLabel 7400 3300 2    50   Input ~ 0
+RGB_RIGHT_GREEN
+Text HLabel 7400 3400 2    50   Input ~ 0
+RGB_RIGHT_RED
+$Comp
+L eMob:PAM2804 U?
+U 1 1 6050A817
+P 5950 4000
+F 0 "U?" H 5950 4225 50  0000 C CNN
+F 1 "PAM2804" H 5950 4134 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6050 4000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/PAM2804.pdf" H 6050 4000 50  0001 C CNN
+F 4 "PAM2804AAB010DICT-ND" H 5950 4000 50  0001 C CNN "Digikey"
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6050B28C
+P 4550 3950
+F 0 "#PWR?" H 4550 3800 50  0001 C CNN
+F 1 "+5V" H 4565 4123 50  0000 C CNN
+F 2 "" H 4550 3950 50  0001 C CNN
+F 3 "" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050BA41
+P 4550 4100
+F 0 "C?" H 4642 4146 50  0000 L CNN
+F 1 "???" H 4642 4055 50  0000 L CNN
+F 2 "" H 4550 4100 50  0001 C CNN
+F 3 "~" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6050C684
+P 4550 4300
+F 0 "#PWR?" H 4550 4050 50  0001 C CNN
+F 1 "GND" H 4555 4127 50  0000 C CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4300 4550 4200
+Wire Wire Line
+	4550 4000 4550 3950
+Connection ~ 4550 4000
+Text HLabel 5600 4100 0    50   Input ~ 0
+PAM2804_PWM_EN
+Wire Wire Line
+	5600 4100 5650 4100
+Wire Wire Line
+	4550 4000 5650 4000
+$Comp
+L power:GND #PWR?
+U 1 1 60510AE7
+P 5600 4300
+F 0 "#PWR?" H 5600 4050 50  0001 C CNN
+F 1 "GND" H 5605 4127 50  0000 C CNN
+F 2 "" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4200 5650 4200
+Wire Wire Line
+	5600 4200 5600 4300
+$Comp
+L Device:L_Small L?
+U 1 1 60513852
+P 6450 4000
+F 0 "L?" V 6500 4150 50  0000 C CNN
+F 1 "???" V 6500 3850 50  0000 C CNN
+F 2 "" H 6450 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 4000 6350 4000
+$Comp
+L Device:C_Small C?
+U 1 1 60514D05
+P 6850 4100
+F 0 "C?" H 6942 4146 50  0000 L CNN
+F 1 "???" H 6942 4055 50  0000 L CNN
+F 2 "" H 6850 4100 50  0001 C CNN
+F 3 "~" H 6850 4100 50  0001 C CNN
+	1    6850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6051527D
+P 6850 4200
+F 0 "#PWR?" H 6850 3950 50  0001 C CNN
+F 1 "GND" H 6855 4027 50  0000 C CNN
+F 2 "" H 6850 4200 50  0001 C CNN
+F 3 "" H 6850 4200 50  0001 C CNN
+	1    6850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4000 7100 4150
+Wire Wire Line
+	7100 4150 7400 4150
+Text HLabel 7400 4150 2    50   Input ~ 0
+HEADLIGHT_OUT
+Text HLabel 7400 4350 2    50   Input ~ 0
+HEADLIGHT_IN
+Connection ~ 6850 4000
+Wire Wire Line
+	6850 4000 7100 4000
+Wire Wire Line
+	6550 4000 6850 4000
+Wire Wire Line
+	7400 4350 7100 4350
+Wire Wire Line
+	7100 4350 7100 4450
+Wire Wire Line
+	7100 4450 6500 4450
+Wire Wire Line
+	6500 4450 6500 4200
+Wire Wire Line
+	6500 4200 6250 4200
+$Comp
+L Device:R_Small R?
+U 1 1 60519D0E
+P 6500 4550
+AR Path="/60414BF3/60519D0E" Ref="R?"  Part="1" 
+AR Path="/60519D0E" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/60519D0E" Ref="R?"  Part="1" 
+F 0 "R?" H 6559 4596 50  0000 L CNN
+F 1 "???" H 6559 4505 50  0000 L CNN
+F 2 "" H 6500 4550 50  0001 C CNN
+F 3 "~" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6051A069
+P 6500 4650
+F 0 "#PWR?" H 6500 4400 50  0001 C CNN
+F 1 "GND" H 6505 4477 50  0000 C CNN
+F 2 "" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	1    0    0    -1  
+$EndComp
+Text HLabel 4250 1300 0    39   Input ~ 0
+PWM_RGB_LEFT_RED
+Text HLabel 5400 1300 0    39   Input ~ 0
+PWM_RGB_LEFT_GREEN
+Text HLabel 6550 1300 0    39   Input ~ 0
+PWM_RGB_LEFT_BLUE
+Text HLabel 4250 2700 0    39   Input ~ 0
+PWM_RGB_RIGHT_RED
+Text HLabel 5400 2700 0    39   Input ~ 0
+PWM_RGB_RIGHT_GREEN
+Text HLabel 6550 2700 0    39   Input ~ 0
+PWM_RGB_RIGHT_BLUE
+$Comp
+L Interface_CAN_LIN:SN65HVD232 U?
+U 1 1 60569535
+P 6000 5850
+F 0 "U?" H 6350 5500 50  0000 C CNN
+F 1 "SN65HVD232" H 6350 5400 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 5900 6250 50  0001 C CNN
+	1    6000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6056A14E
+P 6000 6250
+F 0 "#PWR?" H 6000 6000 50  0001 C CNN
+F 1 "GND" H 6005 6077 50  0000 C CNN
+F 2 "" H 6000 6250 50  0001 C CNN
+F 3 "" H 6000 6250 50  0001 C CNN
+	1    6000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6056B078
+P 6000 5150
+F 0 "#PWR?" H 6000 5000 50  0001 C CNN
+F 1 "+3V3" H 6015 5323 50  0000 C CNN
+F 2 "" H 6000 5150 50  0001 C CNN
+F 3 "" H 6000 5150 50  0001 C CNN
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5550 6000 5200
+$Comp
+L Device:C_Small C?
+U 1 1 6056CB75
+P 5450 5350
+F 0 "C?" H 5542 5396 50  0000 L CNN
+F 1 "0.1uF" H 5542 5305 50  0000 L CNN
+F 2 "" H 5450 5350 50  0001 C CNN
+F 3 "~" H 5450 5350 50  0001 C CNN
+	1    5450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6056CF59
+P 5450 5450
+F 0 "#PWR?" H 5450 5200 50  0001 C CNN
+F 1 "GND" H 5455 5277 50  0000 C CNN
+F 2 "" H 5450 5450 50  0001 C CNN
+F 3 "" H 5450 5450 50  0001 C CNN
+	1    5450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5250 5450 5200
+Wire Wire Line
+	5450 5200 6000 5200
+Connection ~ 6000 5200
+Wire Wire Line
+	6000 5200 6000 5150
+$Comp
+L Device:LED_Small D?
+U 1 1 6056F481
+P 4650 5350
+F 0 "D?" V 4696 5280 50  0000 R CNN
+F 1 "OG" V 4605 5280 50  0000 R CNN
+F 2 "" V 4650 5350 50  0001 C CNN
+F 3 "~" V 4650 5350 50  0001 C CNN
+	1    4650 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 6056FB9B
+P 4900 5350
+F 0 "D?" V 4946 5280 50  0000 R CNN
+F 1 "OG" V 4855 5280 50  0000 R CNN
+F 2 "" V 4900 5350 50  0001 C CNN
+F 3 "~" V 4900 5350 50  0001 C CNN
+	1    4900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 605700E4
+P 4650 5550
+AR Path="/60414BF3/605700E4" Ref="R?"  Part="1" 
+AR Path="/605700E4" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/605700E4" Ref="R?"  Part="1" 
+F 0 "R?" H 4709 5596 50  0000 L CNN
+F 1 "???" H 4709 5505 50  0000 L CNN
+F 2 "" H 4650 5550 50  0001 C CNN
+F 3 "~" H 4650 5550 50  0001 C CNN
+	1    4650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 605704A7
+P 4900 5550
+AR Path="/60414BF3/605704A7" Ref="R?"  Part="1" 
+AR Path="/605704A7" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/605704A7" Ref="R?"  Part="1" 
+F 0 "R?" H 4959 5596 50  0000 L CNN
+F 1 "???" H 4959 5505 50  0000 L CNN
+F 2 "" H 4900 5550 50  0001 C CNN
+F 3 "~" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60570EAA
+P 5150 5500
+AR Path="/60414BF3/60570EAA" Ref="R?"  Part="1" 
+AR Path="/60570EAA" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/60570EAA" Ref="R?"  Part="1" 
+F 0 "R?" H 5209 5546 50  0000 L CNN
+F 1 "???" H 5209 5455 50  0000 L CNN
+F 2 "" H 5150 5500 50  0001 C CNN
+F 3 "~" H 5150 5500 50  0001 C CNN
+	1    5150 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 5200
+Wire Wire Line
+	4900 5250 4900 5200
+Wire Wire Line
+	4650 5250 4650 5200
+Wire Wire Line
+	5150 5400 5150 5200
+Connection ~ 5150 5200
+Wire Wire Line
+	5150 5200 5450 5200
+Wire Wire Line
+	5600 5750 5150 5750
+Wire Wire Line
+	5150 5600 5150 5750
+Connection ~ 5150 5750
+Wire Wire Line
+	5150 5750 4900 5750
+Wire Wire Line
+	4900 5650 4900 5750
+Wire Wire Line
+	5600 5850 4650 5850
+Wire Wire Line
+	4650 5650 4650 5850
+Wire Wire Line
+	4650 5200 4900 5200
+Connection ~ 4650 5850
+Connection ~ 4900 5200
+Wire Wire Line
+	4900 5200 5150 5200
+Connection ~ 4900 5750
+Wire Wire Line
+	4000 5750 4900 5750
+Wire Wire Line
+	4000 5850 4650 5850
+Text HLabel 4000 5850 0    50   Input ~ 0
+SN65HV_UART_RX
+Text HLabel 4000 5750 0    50   Input ~ 0
+SN65HV_UART_TX
+$Comp
+L Device:R_Small R?
+U 1 1 6057D4AD
+P 6750 5900
+AR Path="/60414BF3/6057D4AD" Ref="R?"  Part="1" 
+AR Path="/6057D4AD" Ref="R?"  Part="1" 
+AR Path="/604FCAFA/6057D4AD" Ref="R?"  Part="1" 
+F 0 "R?" H 6809 5946 50  0000 L CNN
+F 1 "???" H 6809 5855 50  0000 L CNN
+F 2 "" H 6750 5900 50  0001 C CNN
+F 3 "~" H 6750 5900 50  0001 C CNN
+	1    6750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5950 6600 5950
+Wire Wire Line
+	6600 5950 6600 6000
+Wire Wire Line
+	6600 6000 6750 6000
+Connection ~ 6750 6000
+Wire Wire Line
+	6750 6000 7400 6000
+Wire Wire Line
+	6400 5850 6600 5850
+Wire Wire Line
+	6600 5850 6600 5800
+Wire Wire Line
+	6600 5800 6750 5800
+Connection ~ 6750 5800
+Wire Wire Line
+	6750 5800 7400 5800
+Text HLabel 7400 5800 2    50   Input ~ 0
+CANH
+Text HLabel 7400 6000 2    50   Input ~ 0
+CANL
+$EndSCHEMATC
